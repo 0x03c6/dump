@@ -67,8 +67,6 @@ private:
   }
 };
 
-
-
 int main(int argc, char** argv) {
   std::pmr::vector<int> v = {1, 2, 3, 4, 5};
   auto cv = std::vector<int, custom_allocator<int>>();
